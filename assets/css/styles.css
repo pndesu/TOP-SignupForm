@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: Norse-Bold;
-    src: url("/assets/fonts/Norse-Bold.otf");
+    src: url("../assets/fonts/Norse-Bold.otf");
 }
 
 .body-container{
@@ -14,7 +14,7 @@
 }
 
 .left-part{
-    background: url("/assets/image/halie-west-25xggax4bSA-unsplash.jpg") ;
+    background: url("https://raw.githubusercontent.com/pndesu/TOP-SignupForm/main/assets/image/halie-west-25xggax4bSA-unsplash.jpg") ;
     height: 100vh;
     width: 35vw;
     background-size: 35vw 100vh;

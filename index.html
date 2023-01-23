@@ -4,9 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="./assets/js/script.js" defer></script>
 </head>
+
 <body>
-    
+    <div class="body-container">
+        <div class="left-part">
+            <div class="logo-banner">
+                <img class="logo" src="./assets/image/logo.png" alt="">
+                <p class="logo-text">ODIN</p>
+            </div>
+            <p class="credit">Photo by <a href="https://unsplash.com/photos/25xggax4bSA">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a></p>
+        </div>
+        <div class="right-part">
+            <p class="action-text">This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p class="action-text">You <em>know</em> you want to</p>
+            <form action="" method="get">
+                <div class="form-box-background">
+                    <div class="form-box">
+                        <p class="form-box-row">Let's do this!</p>
+                        <div class="form-box-row">
+                            <div class="input-item">
+                                <label class="label-text" for="first-name">FIRST NAME</label>
+                                <input class="input-text" type="text" id="first-name" name="first-name" placeholder="Od" required>
+                            </div>
+
+                            <div class="input-item">
+                                <label class="label-text" for="last-name">LAST NAME</label>
+                                <input class="input-text" type="text" id="last-name" name="last-name" placeholder="In" required>
+                            </div>
+                        </div>
+
+                        <div class="form-box-row">
+                            <div class="input-item">
+                                <label class="label-text" for="email">EMAIL</label>
+                                <input class="input-text" type="email" id="email" name="email" title="Invalid email" placeholder="odin@gmail.com" required>
+                            </div>
+
+                            <div class="input-item">
+                                <label class="label-text" for="phone-number">PHONE NUMBER</label>
+                                <input class="input-text" type="tel" id="phone-number" name="phone-number" pattern="0[0-9]{9}" placeholder="0420666999" title="Invalid phone number" required>
+                            </div>
+                        </div>
+
+                        <div class="form-box-row">
+                            <div class="input-item">
+                                <label class="label-text" for="password">PASSWORD</label>
+                                <input class="input-text" autocomplete="off" type="password" id="password" name="password" minlength="6" title="Password has to be longer than 6 characters" required>
+                            </div>
+
+                            <div class="input-item">
+                                <label class="label-text" for="confirm-password">CONFIRM PASSWORD</label>
+                                <input class="input-text" autocomplete="off" type="password" id="confirm-password" name="confirm-password" title="Password does not match" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="submit-button">
+                    <button type="submit">Create Account</button>
+                </div>
+
+            </form>
+            <p class="login-prompt">Already have an account? <a href="">Log in</a></p>
+        </div>
+    </div>
 </body>
 </html>
